@@ -1,0 +1,44 @@
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:white;
+    align-items: center;
+    color: #491414 !important;
+    font-size: 20px;
+}
+.main > .selected {
+    background: transparent;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.main > .selected:hover {
+   color: orangered;
+   
+}
+
+.main img {
+    height: 100px;
+    width: 200px;
+    border-radius: 1px solid;
+    border-color: black;
+}
+.main div
+{
+    cursor: pointer;
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+
+.main img {
+    height: 100px;
+    width: 200px;
+}
+
+

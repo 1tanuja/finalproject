@@ -1,0 +1,115 @@
+
+
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[0]" >
+    </div>
+    
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[1]">
+    </div>
+   
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[2]" >
+    </div>
+    
+  </ng-template>
+</ngb-carousel>
+
+<body class="body">
+  
+
+<div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+<div class="container">
+  <div class="row" >
+      <div class="col-12">
+          <h2 class="menu-section-heading">What's In Your Mind</h2>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()" >
+          <div class="shadow menu-item-card p-3 mb-3">
+              <img src="assets/images/biryani1.jpg" class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Biryani</h1>
+          </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+            <img src="assets/images/pizza.jpg" class="menu-item-image w-100" />
+            <h1 class="menu-card-title">Pizza</h1>
+        </div>
+
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+      <div class="shadow menu-item-card p-3 mb-3">
+          <img src="../../../assets/images/north.jpg" class="menu-item-image w-100" />
+          <h1 class="menu-card-title">North-Indian</h1>
+      </div>
+
+  </div>
+
+  <div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+    <div class="shadow menu-item-card p-3 mb-3">
+        <img src="../../../assets/images/chinese.jpg" class="menu-item-image w-100" />
+        <h1 class="menu-card-title">Chinese</h1>
+
+    </div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+  <div class="shadow menu-item-card p-3 mb-3">
+      <img src="../../../assets/images/south.jpg" class="menu-item-image w-100" />
+      <h1 class="menu-card-title">South-Indian</h1>
+  </div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+<div class="shadow menu-item-card p-3 mb-3">
+    <img src="../../../assets/images/thali.jpg" class="menu-item-image w-100" />
+    <h1 class="menu-card-title">Thali</h1>
+</div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+<div class="shadow menu-item-card p-3 mb-3">
+  <img src="../../../assets/images/chicken.jpg" class="menu-item-image w-100" />
+  <h1 class="menu-card-title"> Chicken</h1>
+</div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3 pointer" (click)="gotoLogin()">
+<div class="shadow menu-item-card p-3 mb-3">
+<img src="../../../assets/images/other.jpg" class="menu-item-image w-100" />
+<h1 class="menu-card-title">Others</h1>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="footer-section pt-5 pb-5">
+<div class="container">
+<div class="row">
+    <div class="col-12 text-center">
+        <img class="logo" src="../../../assets/images/logo2.png"  />
+        <h1 class="footer-section-mail-id"></h1>
+        <p class="footer-section-address">
+          Jayanagar 3rd Block Bengaluru 560060
+        </p>
+    </div>
+</div>
+</div>
+</div>
+</body>

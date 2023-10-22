@@ -1,0 +1,26 @@
+<br /><br />
+<div *ngIf="cartList.length===0" class="centered">
+    No product available in cart
+</div>
+<div *ngIf="cartList.length>0" class="centered">
+<table border="1">
+    <tr>
+        <th>Food Id</th>
+        <th>Image</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th></th>
+        </tr>
+    <tr *ngFor="let cart of cartList">
+        <td>{{cart?.food?.foodName}}</td>
+        <td><img [src]="cart?.food?.imageUrl" /></td>
+        <td>{{cart?.quantity}}</td>
+        <td>{{cart?.totalPrice}}</td>
+        <td><button (click)="deleteCart(cart)" mat-raised-button color="primary">Delete Cart</button></td>
+    </tr>
+</table>
+</div>
+<br />
+<div class="centered" *ngIf="cartList.length!==0">
+    <b>Grand Total: </b>&nbsp;&nbsp;{{grandTotal}} &nbsp;&nbsp;<button (click)="placeOrder()" mat-raised-button color="primary">Place Order</button>
+</div>

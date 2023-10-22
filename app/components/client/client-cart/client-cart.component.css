@@ -1,0 +1,7 @@
+.button-padding {
+    margin: 0 6px 0 6px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}

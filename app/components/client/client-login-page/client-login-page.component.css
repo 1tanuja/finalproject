@@ -1,0 +1,28 @@
+.client-login {
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgb(109 109 125 / 28%) 0px 4px 7px 12px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman';
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+.body{
+background-color: rgb(228, 214, 221);
+}
+
+.img1{
+   background-image: url('https://img.freepik.com/free-vector/isolated-delivery-icon-white_1308-51057.jpg?w=1380&t=st=1697966301~exp=1697966901~hmac=fe13a881c394909bc03811692ef1bccaa2b14a03743ee4e87b23386a093eae29');
+   background-repeat: no-repeat;
+  
+   background-position: center center;
+   background-size: 100%;
+   height: 700px;
+    }

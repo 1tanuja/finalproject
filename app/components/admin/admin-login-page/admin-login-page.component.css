@@ -1,0 +1,18 @@
+.admin-login {
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(77, 77, 86, 0.28) 0px 4px 7px 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+.img1{
+    background-image: url('https://img.freepik.com/free-vector/isolated-delivery-icon-white_1308-51057.jpg?w=1380&t=st=1697966301~exp=1697966901~hmac=fe13a881c394909bc03811692ef1bccaa2b14a03743ee4e87b23386a093eae29');
+    background-repeat: no-repeat;
+
+   
+    background-position: center center;
+    background-size: 100%;
+    height: 700px;
+     }
+
